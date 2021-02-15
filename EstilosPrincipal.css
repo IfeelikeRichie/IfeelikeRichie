@@ -1,0 +1,182 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+    /* border: solid 1px white; */
+  
+}
+body{
+    background-color: #d93425;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Bar{
+    background-color: #d9bd29;
+    color: black;
+}
+#MenuBar{
+    padding: 0px 0px;
+    margin-right: 10px;
+    text-align: left;
+}
+#MenuBar  #logo{
+    /* float: left; */
+    width: 12%;
+    /* margin-right: 70%; */
+}
+
+#MenuBar .itemmenu{
+    display: inline-block;
+    /* padding: 10px; */
+    vertical-align: middle;
+    text-align: center;
+}
+.itemmenu #display{
+    display: none;
+    position:absolute;
+    text-align: left;
+}
+.boton{
+    background-color: #d9bd29;
+}
+#display a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    /* border:solid 1px white; */
+}
+.itemmenu:hover #display{
+    display: block;
+}
+#display .boton:hover{
+    /* background-color: black;
+    color: #d93425; */
+    opacity: 0.2;
+} 
+.image{
+    width: 100%;
+
+}
+#me .image{
+    padding-bottom: 17%;
+    padding-top: 17%;
+}
+.contenido{
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+}
+.titulos {
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
+@media (min-width:500px) {
+    .titulos{
+        font-size: 150%;
+    }
+}
+@media (min-width:600px) {
+    .titulos{
+        font-size: 200%;
+    }
+}
+@media (min-width:700px) {
+    .titulos{
+        font-size: 250%;
+    }
+}
+@media (min-width:900px) {
+    .titulos{
+        font-size: 300%;
+        padding-bottom: 15%;
+    }
+}
+.subtitulos{
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.piedepagina{
+    background-color: black;
+    color: white;
+}
+#table{
+    margin: 0;
+    padding: 0;
+}
+#table .colum{
+    display: inline-block;
+    padding: 6%;
+}
+.opacity{
+    margin: 16px;
+    text-decoration: none;
+    color: black;
+}
+#hover .opacity:hover{
+    opacity: 0.2;
+}
+.opacity a:hover{
+    opacity: 0.2;
+}
+#esopacity{
+    padding: 18px;
+}
+#esopacity:hover{
+    opacity: 0.2;
+}
+#table .colum a{
+    text-decoration: none;
+    color: white;
+}
+#galeria{
+    margin: 0;
+    padding: 0;
+    background-color: #d9bd29;
+}
+#galeria div{
+    display: inline-block;
+    width: 60%;
+    padding: 4%;
+}
+/* #galeria div .image{
+    padding:5%;
+} */
+@media (min-width:500px) {
+    #galeria div{
+        display: inline-block;
+        width: 55%;
+    }
+}
+@media (min-width:600px) {
+    #galeria div{
+        display: inline-block;
+        width: 50%;
+    }
+}
+@media (min-width:700px) {
+    #galeria div{
+        display: inline-block;
+        width: 40%;
+    }
+}
+.text{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 3%;
+    padding-bottom: 15%;
+}
+.icon{
+    width: 1%;
+}
